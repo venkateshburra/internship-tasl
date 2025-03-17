@@ -1,0 +1,170 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    margin-left: 120px;
+}
+.iconDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.iconDiv img{
+    width: 15px;
+    height: 15.6px;
+}
+.iconDiv h2{
+  font-size: 1.4rem;
+  font-weight: 500px;
+  color: #909090;
+}
+.iconDiv .arrow{
+  width: 8px;
+  height: 4px;
+}
+.Notifications_div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Notifications_div img{
+  width: 18px;
+  height: 18px;
+}
+.Notifications_div .person{
+  width: 36px;
+  height: 36px;
+}
+.Notifications_div p{
+  border: 1px solid #E1E1E1;
+  height: 25px;
+}
+.Notifications_div h3{
+  color: #353535;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.Notifications_div h3 span {
+  color: #737791;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.4rem;
+  display: inline-block;
+}
+
+/* aside */
+
+aside {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  bottom: 0;
+  box-shadow: 6px 0px 11px 0px #0000000F;
+  background: #ffffff;
+  width: 102.68px;
+}
+
+.sidebar {
+  margin: 45px 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.sidebar img {
+  width: 15px;
+  height: 15px;
+}
+.sidebar h2{
+  font-size: 1.4rem;
+}
+.sidebar .clini{
+  font-size: 1.6rem;
+}
+.sidebar .clini span {
+  color: rgb(2, 160, 2);
+  font-weight: 500px;
+  display: inline-block;
+  margin-top: 0.3rem;
+}
+/* 
+main {
+  margin: 20px 90px;
+    background: #ffffff;
+    width: 94.7%;
+    max-width: 100%;
+
+} */
+
+section{
+  /* background: #f1f1f1; */
+  padding: 20px;
+
+}
+.serach_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputSearch {
+  position: relative;
+}
+.inputSearch input {
+  border: 0;
+  padding: 8px;
+   border-radius: 6px;
+}
+.inputSearch input:focus{
+  outline: 0;
+}
+.inputSearch img {
+  position: absolute;
+  left: 160px;
+  top: 10px;
+}
+
+/* Table */
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+  font-size: 1.2rem;
+  color: #909090;
+  margin-left: 84px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  background: #f4f4f4;
+}
+
